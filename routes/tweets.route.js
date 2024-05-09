@@ -1,8 +1,9 @@
 import { Router } from "express"
-import { getAllData } from "../controller/data.controller.js"
+import { getAllData, getDataById } from "../controller/data.controller.js"
 
 const tweetRoutes = Router ()
 
-tweetRoutes.get("/tweets", getAllData)
+tweetRoutes.get('/:id', getDataById);
+tweetRoutes.get("/", getAllData);
 
 export default tweetRoutes

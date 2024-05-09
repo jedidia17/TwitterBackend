@@ -13,7 +13,7 @@ const data = [
   },
   {
     id: '002',
-    author: 'Bradley Ortiz',
+    author: 'Bradley',
     nickname: '@bradley',
     time: '7m',
     avatar: '/assets/Profile-Photo.png',
@@ -25,7 +25,7 @@ const data = [
   },
   {
     id: '003',
-    author: 'The New York Times',
+    author: 'nytime',
     nickname: '@nytimes',
     time: '2h',
     avatar: '/assets/times.png',
@@ -61,7 +61,7 @@ const data = [
   },
   {
     id: '006',
-    author: 'Bradley Ortiz',
+    author: 'Bradley',
     nickname: '@bradley',
     time: '7m',
     avatar: '/assets/Profile-Photo.png',
